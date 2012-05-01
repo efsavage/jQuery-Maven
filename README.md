@@ -11,7 +11,7 @@ Add this to the <dependencies> element of your pom.xml
 		<dependency>
 			<groupId>com.efsavage</groupId>
 			<artifactId>jquery</artifactId>
-			<version>1.7.1</version>
+			<version>1.7.2</version>
 		</dependency>
 
 Usage
