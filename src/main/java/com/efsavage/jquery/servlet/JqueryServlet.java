@@ -34,7 +34,7 @@ import javax.servlet.http.HttpServletResponse;
  *         href="mailto:code@efsavage.com">code@efsavage.com</a>.
  * 
  */
-@WebServlet(urlPatterns = "/ext/js/jquery.js")
+@WebServlet(urlPatterns = "/ext/jquery/js/jquery.js")
 public class JqueryServlet extends HttpServlet {
 
 	@Override
@@ -49,4 +49,5 @@ public class JqueryServlet extends HttpServlet {
 		final String js = new Scanner(jsStream).useDelimiter("\\A").next();
 		out.write(js);
 	}
+
 }
