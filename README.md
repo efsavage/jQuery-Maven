@@ -1,6 +1,6 @@
-Bootstrap for Maven
+jQuery for Maven
 =============
-[![Build Status](https://secure.travis-ci.org/efsavage/Bootstrap-Maven.png?branch=master)](http://travis-ci.org/efsavage/Bootstrap-Maven)
+[![Build Status](https://secure.travis-ci.org/efsavage/jQuery-Maven.png?branch=master)](http://travis-ci.org/efsavage/jQuery-Maven)
 
 This library gives you a way to drop [jQuery](http://jquery.com) into your project as a [Maven](maven.apache.org) dependency, which means you don't have to include these third party files in your own source control.
 
@@ -40,7 +40,7 @@ Other "Mavenized" Projects
 
 Changelog
 -------
-Note: See the [Bootstrap Changelog](https://github.com/twitter/bootstrap/wiki/Changelog) for information about changes to the Bootstrap files themselves.
+Note: See the [release notes](http://blog.jquery.com/2012/03/21/jquery-1-7-2-released/) for information about changes to the jQuery files themselves.
 
 ##1.7.2.1
 * Moved files under /ext/jquery parent directory.
