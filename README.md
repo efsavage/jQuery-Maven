@@ -12,7 +12,7 @@ Add this to the <dependencies> element of your pom.xml
 		<dependency>
 			<groupId>com.efsavage</groupId>
 			<artifactId>jquery</artifactId>
-			<version>1.7.2</version>
+			<version>1.8.0</version>
 		</dependency>
 
 Usage
@@ -40,7 +40,10 @@ Other "Mavenized" Projects
 
 Changelog
 -------
-Note: See the [release notes](http://blog.jquery.com/2012/03/21/jquery-1-7-2-released/) for information about changes to the jQuery files themselves.
+Note: See the [release notes](http://blog.jquery.com/2012/08/09/jquery-1-8-released/) for information about changes to the jQuery files themselves.
+
+##1.8.0
+* Updated to jQuery 1.8.0
 
 ##1.7.2.1
 * Moved files under /ext/jquery parent directory.
