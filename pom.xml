@@ -9,7 +9,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.efsavage.jquery</groupId>
 	<artifactId>jquery-maven</artifactId>
-	<version>1.8.1-SNAPSHOT</version>
+	<version>1.8.1</version>
 	<name>jQuery for Maven</name>
 	<description>This library gives you a way to drop jQuery into your project as a Maven dependency, which means you don't have to include these third party files in your own source control.</description>
 
