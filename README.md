@@ -10,9 +10,9 @@ pom.xml
 Add this to the <dependencies> element of your pom.xml
 
 		<dependency>
-			<groupId>com.efsavage</groupId>
+			<groupId>com.efsavage.jquery</groupId>
 			<artifactId>jquery</artifactId>
-			<version>1.8.1</version>
+			<version>1.8.2</version>
 		</dependency>
 
 Usage
@@ -41,6 +41,10 @@ Other "Mavenized" Projects
 Changelog
 -------
 Note: See the [release notes](http://blog.jquery.com/2012/08/09/jquery-1-8-released/) for information about changes to the jQuery files themselves.
+
+##1.8.2
+* Updated to jQuery 1.8.2
+* Fixed README (Issue #1)
 
 ##1.8.1
 * Updated to jQuery 1.8.1

@@ -41,9 +41,9 @@ public class JqueryServlet extends HttpServlet {
 	protected void doGet(final HttpServletRequest req, final HttpServletResponse resp) throws ServletException, IOException {
 		resp.setContentType("text/javascript");
 		final PrintWriter out = resp.getWriter();
-		String src = "/com/jquery/jquery-1.8.1.min.js";
+		String src = "/com/jquery/jquery-1.8.2.min.js";
 		if ("false".equals(req.getParameter("min"))) {
-			src = "/com/jquery/jquery-1.8.1.js";
+			src = "/com/jquery/jquery-1.8.2.js";
 		}
 		final InputStream jsStream = getClass().getResourceAsStream(src);
 		final String js = new Scanner(jsStream).useDelimiter("\\A").next();
